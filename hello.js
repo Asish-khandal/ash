@@ -454,3 +454,9 @@ function asish(a, b, ...manyMore) {
 }
 
 asish(1, 2, 3, 4, 5, 6, 7, 8, 9);
+
+function asish(a, b, ...manyMore) {
+  console.log(a, b, manyMore);
+}
+
+asish(1, 2, 3, 4, 5, 6, 7, 8, 9);
